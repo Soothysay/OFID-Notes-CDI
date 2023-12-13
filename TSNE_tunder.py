@@ -17,7 +17,7 @@ dfx=df3.drop(['LABEL'],axis=1)
 
 for i in range(1,600):
     import matplotlib.pyplot as plt
-    loc='TSNE/TSNE_plot'+str(i)+'.png'
+    loc='TSNE_plot'+str(i)+'.png'
     pca = TSNE(n_components=2,n_iter=5000, learning_rate='auto',init='random', perplexity=i)
     vals=pca.fit_transform(dfx.values)
     colu=df3['LABEL'].tolist()
