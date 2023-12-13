@@ -12,15 +12,15 @@ Please reach out to akash-choudhuri@uiowa.edu for any queries.
    ```console
     python3 pre-process.py
    ```
-3. Get the Doc2vec embeddings of the created case files by running
+3. Get the Doc2vec embeddings of the created case files by running:
    ```console
    python3 get_para_emb.py
    ```
-5. Get the results of the Logistic Regression Models by running
+5. Get the results of the Logistic Regression Models by running:
    ```console
    python3 LR_exp_vars.py
    ```
-7. To get t-SNE visualization of the note embeddings run
+7. To get t-SNE visualization of the note embeddings run:
    ```console
    python3 TSNE_tunder.py
    ```
