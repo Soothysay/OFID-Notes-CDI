@@ -7,7 +7,7 @@ dfdiag = pd.read_csv('files/mimiciii/DIAGNOSES_ICD.csv')
 dfdiag=dfdiag[['HADM_ID','ICD9_CODE']]
 dfdiag.to_csv('diagnoses.csv',index=False)
 dfdiag=dfdiag[['HADM_ID','ICD9_CODE']]
-dfdiag.to_csv('procedures.csv',index=False)
+dfproc.to_csv('procedures.csv',index=False)
 #!/usr/bin/python3
 # Alberto Maria Segre
 #
