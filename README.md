@@ -1,4 +1,4 @@
-# ICHE-Notes-CDI
+# OFID-Notes-CDI
 
 Please reach out to akash-choudhuri@uiowa.edu for any queries.
 
